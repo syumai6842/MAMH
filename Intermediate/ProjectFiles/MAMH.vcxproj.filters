@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MAMH.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MAMH.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MAMHEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MAMH">
+      <UniqueIdentifier>{A47BB0C3-83DC-3EDF-862A-177766AA7882}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MAMH\MAMH.Build.cs">
+      <Filter>Source\MAMH</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MAMH\MAMH.cpp">
+      <Filter>Source\MAMH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\MAMH.h">
+      <Filter>Source\MAMH</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private">
+      <UniqueIdentifier>{3740FF93-1F66-3C33-8C2B-71DE5E0771FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\MenuGamemode.cpp">
+      <Filter>Source\MAMH\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public">
+      <UniqueIdentifier>{8511CEEF-0EAF-3498-8D80-5EF13895F487}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\MenuGamemode.h">
+      <Filter>Source\MAMH\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

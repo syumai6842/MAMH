@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MAMH",
+			"Path": "..\\Source\\MAMH.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MAMHEditor",
+			"Path": "..\\Source\\MAMHEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

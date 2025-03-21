@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\oses\\os\\Unreal Projects\\MAMH\\Source\\MAMH\\MAMH.Build.cs",
+		"F:\\oses\\os\\Unreal Projects\\MAMH\\Source\\MAMH.Target.cs",
+		"F:\\oses\\os\\Unreal Projects\\MAMH\\Source\\MAMHEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
