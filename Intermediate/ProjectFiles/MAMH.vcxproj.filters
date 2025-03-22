@@ -11,6 +11,9 @@
     <None Include="..\..\Source\MAMHEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -42,13 +45,37 @@
     <Filter Include="Source\MAMH\Private">
       <UniqueIdentifier>{3740FF93-1F66-3C33-8C2B-71DE5E0771FC}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MAMH\Private\MenuGamemode.cpp">
+    <ClCompile Include="..\..\Source\MAMH\Private\ACameraOnlyPawn.cpp">
+      <Filter>Source\MAMH\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\MainMenuHUD.cpp">
+      <Filter>Source\MAMH\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\MainMenuWidget.cpp">
+      <Filter>Source\MAMH\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\MenuGameMode.cpp">
+      <Filter>Source\MAMH\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\StaticCameraDirector.cpp">
       <Filter>Source\MAMH\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MAMH\Public">
       <UniqueIdentifier>{8511CEEF-0EAF-3498-8D80-5EF13895F487}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MAMH\Public\MenuGamemode.h">
+    <ClCompile Include="..\..\Source\MAMH\Public\ACameraOnlyPawn.h">
+      <Filter>Source\MAMH\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\MainMenuHUD.h">
+      <Filter>Source\MAMH\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\MainMenuWidget.h">
+      <Filter>Source\MAMH\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\MenuGameMode.h">
+      <Filter>Source\MAMH\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\StaticCameraDirector.h">
       <Filter>Source\MAMH\Public</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,14 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "MenuGamemode.generated.h"
+#include "MenuGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MAMH_API AMenuGamemode : public AGameModeBase
+class MAMH_API AMenuGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	AMenuGameMode();
 	
 };

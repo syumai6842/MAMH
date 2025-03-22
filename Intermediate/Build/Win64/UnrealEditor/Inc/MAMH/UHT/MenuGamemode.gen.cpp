@@ -5,27 +5,27 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MAMH/Public/MenuGamemode.h"
+#include "MAMH/Public/MenuGameMode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-void EmptyLinkFunctionForGeneratedCodeMenuGamemode() {}
+void EmptyLinkFunctionForGeneratedCodeMenuGameMode() {}
 
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
-MAMH_API UClass* Z_Construct_UClass_AMenuGamemode();
-MAMH_API UClass* Z_Construct_UClass_AMenuGamemode_NoRegister();
+MAMH_API UClass* Z_Construct_UClass_AMenuGameMode();
+MAMH_API UClass* Z_Construct_UClass_AMenuGameMode_NoRegister();
 UPackage* Z_Construct_UPackage__Script_MAMH();
 // End Cross Module References
 
-// Begin Class AMenuGamemode
-void AMenuGamemode::StaticRegisterNativesAMenuGamemode()
+// Begin Class AMenuGameMode
+void AMenuGameMode::StaticRegisterNativesAMenuGameMode()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AMenuGamemode);
-UClass* Z_Construct_UClass_AMenuGamemode_NoRegister()
+IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AMenuGameMode);
+UClass* Z_Construct_UClass_AMenuGameMode_NoRegister()
 {
-	return AMenuGamemode::StaticClass();
+	return AMenuGameMode::StaticClass();
 }
-struct Z_Construct_UClass_AMenuGamemode_Statics
+struct Z_Construct_UClass_AMenuGameMode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -33,24 +33,24 @@ struct Z_Construct_UClass_AMenuGamemode_Statics
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
-		{ "IncludePath", "MenuGamemode.h" },
-		{ "ModuleRelativePath", "Public/MenuGamemode.h" },
+		{ "IncludePath", "MenuGameMode.h" },
+		{ "ModuleRelativePath", "Public/MenuGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-		TCppClassTypeTraits<AMenuGamemode>::IsAbstract,
+		TCppClassTypeTraits<AMenuGameMode>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-UObject* (*const Z_Construct_UClass_AMenuGamemode_Statics::DependentSingletons[])() = {
+UObject* (*const Z_Construct_UClass_AMenuGameMode_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 	(UObject* (*)())Z_Construct_UPackage__Script_MAMH,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMenuGamemode_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_AMenuGamemode_Statics::ClassParams = {
-	&AMenuGamemode::StaticClass,
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMenuGameMode_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams Z_Construct_UClass_AMenuGameMode_Statics::ClassParams = {
+	&AMenuGameMode::StaticClass,
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
@@ -62,34 +62,33 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMenuGamemode_Statics::
 	0,
 	0,
 	0x009002ACu,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMenuGamemode_Statics::Class_MetaDataParams), Z_Construct_UClass_AMenuGamemode_Statics::Class_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMenuGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_AMenuGameMode_Statics::Class_MetaDataParams)
 };
-UClass* Z_Construct_UClass_AMenuGamemode()
+UClass* Z_Construct_UClass_AMenuGameMode()
 {
-	if (!Z_Registration_Info_UClass_AMenuGamemode.OuterSingleton)
+	if (!Z_Registration_Info_UClass_AMenuGameMode.OuterSingleton)
 	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_AMenuGamemode.OuterSingleton, Z_Construct_UClass_AMenuGamemode_Statics::ClassParams);
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_AMenuGameMode.OuterSingleton, Z_Construct_UClass_AMenuGameMode_Statics::ClassParams);
 	}
-	return Z_Registration_Info_UClass_AMenuGamemode.OuterSingleton;
+	return Z_Registration_Info_UClass_AMenuGameMode.OuterSingleton;
 }
-template<> MAMH_API UClass* StaticClass<AMenuGamemode>()
+template<> MAMH_API UClass* StaticClass<AMenuGameMode>()
 {
-	return AMenuGamemode::StaticClass();
+	return AMenuGameMode::StaticClass();
 }
-AMenuGamemode::AMenuGamemode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(AMenuGamemode);
-AMenuGamemode::~AMenuGamemode() {}
-// End Class AMenuGamemode
+DEFINE_VTABLE_PTR_HELPER_CTOR(AMenuGameMode);
+AMenuGameMode::~AMenuGameMode() {}
+// End Class AMenuGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGamemode_h_Statics
+struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMenuGamemode, AMenuGamemode::StaticClass, TEXT("AMenuGamemode"), &Z_Registration_Info_UClass_AMenuGamemode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMenuGamemode), 3927105347U) },
+		{ Z_Construct_UClass_AMenuGameMode, AMenuGameMode::StaticClass, TEXT("AMenuGameMode"), &Z_Registration_Info_UClass_AMenuGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMenuGameMode), 3039314172U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGamemode_h_283248031(TEXT("/Script/MAMH"),
-	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGamemode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGamemode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_3958788728(TEXT("/Script/MAMH"),
+	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
