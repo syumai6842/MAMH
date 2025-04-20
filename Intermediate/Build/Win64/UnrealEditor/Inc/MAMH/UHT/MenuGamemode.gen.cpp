@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MAMH/Public/MenuGameMode.h"
+#include "MAMH/Public/Core/MenuGameMode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMenuGameMode() {}
 
@@ -33,8 +33,8 @@ struct Z_Construct_UClass_AMenuGameMode_Statics
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
-		{ "IncludePath", "MenuGameMode.h" },
-		{ "ModuleRelativePath", "Public/MenuGameMode.h" },
+		{ "IncludePath", "Core/MenuGameMode.h" },
+		{ "ModuleRelativePath", "Public/Core/MenuGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif // WITH_METADATA
@@ -81,14 +81,14 @@ AMenuGameMode::~AMenuGameMode() {}
 // End Class AMenuGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics
+struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Core_MenuGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMenuGameMode, AMenuGameMode::StaticClass, TEXT("AMenuGameMode"), &Z_Registration_Info_UClass_AMenuGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMenuGameMode), 3039314172U) },
+		{ Z_Construct_UClass_AMenuGameMode, AMenuGameMode::StaticClass, TEXT("AMenuGameMode"), &Z_Registration_Info_UClass_AMenuGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMenuGameMode), 2872898972U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_3958788728(TEXT("/Script/MAMH"),
-	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_MenuGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Core_MenuGameMode_h_3546236908(TEXT("/Script/MAMH"),
+	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Core_MenuGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Core_MenuGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

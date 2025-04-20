@@ -45,38 +45,170 @@
     <Filter Include="Source\MAMH\Private">
       <UniqueIdentifier>{3740FF93-1F66-3C33-8C2B-71DE5E0771FC}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MAMH\Private\ACameraOnlyPawn.cpp">
+    <ClCompile Include="..\..\Source\MAMH\Private\PE_UnderstandingListening.cpp">
       <Filter>Source\MAMH\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Private\MainMenuHUD.cpp">
-      <Filter>Source\MAMH\Private</Filter>
+    <Filter Include="Source\MAMH\Private\Character">
+      <UniqueIdentifier>{931425A1-A55A-3A9B-A0E7-F605B3E9452A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Character\BattleController.cpp">
+      <Filter>Source\MAMH\Private\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Private\MainMenuWidget.cpp">
-      <Filter>Source\MAMH\Private</Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Character\BattlePawn.cpp">
+      <Filter>Source\MAMH\Private\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Private\MenuGameMode.cpp">
-      <Filter>Source\MAMH\Private</Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Character\CameraOnlyPawn.cpp">
+      <Filter>Source\MAMH\Private\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Private\StaticCameraDirector.cpp">
-      <Filter>Source\MAMH\Private</Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Character\Enemy.cpp">
+      <Filter>Source\MAMH\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Core">
+      <UniqueIdentifier>{E02734B4-5669-357B-8D0C-AF6F0D08E438}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Core\BattleGameMode.cpp">
+      <Filter>Source\MAMH\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Core\MenuGameMode.cpp">
+      <Filter>Source\MAMH\Private\Core</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Item">
+      <UniqueIdentifier>{7EDC1CF8-25E2-35A8-A449-D7072850B440}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Item\ItemBase.cpp">
+      <Filter>Source\MAMH\Private\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Item\ItemDataStructure.cpp">
+      <Filter>Source\MAMH\Private\Item</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Item\ActiveEffect">
+      <UniqueIdentifier>{9FCE222A-8490-365D-900F-79DE4A7389D6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Item\ActiveEffect\AE_HealHP.cpp">
+      <Filter>Source\MAMH\Private\Item\ActiveEffect</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Utility">
+      <UniqueIdentifier>{A8D69427-8800-36FF-86CA-B078D557CA2D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Utility\ChatData.cpp">
+      <Filter>Source\MAMH\Private\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Utility\StaticCameraDirector.cpp">
+      <Filter>Source\MAMH\Private\Utility</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Widget">
+      <UniqueIdentifier>{6C860196-AD4A-3E29-867F-2E99128D5BB7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\BattleHUD.cpp">
+      <Filter>Source\MAMH\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\BattleWidget.cpp">
+      <Filter>Source\MAMH\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\MainMenuHUD.cpp">
+      <Filter>Source\MAMH\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\MainMenuWidget.cpp">
+      <Filter>Source\MAMH\Private\Widget</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Private\Widget\Component">
+      <UniqueIdentifier>{54170A32-D7C7-372C-BF61-628BA9DE38EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MAMH\Private\Widget\Component\Battle">
+      <UniqueIdentifier>{ED7CA984-BB71-3868-BC60-98CB5F685CD2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\Component\Battle\ChatSlot.cpp">
+      <Filter>Source\MAMH\Private\Widget\Component\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\Component\Battle\ItemButton.cpp">
+      <Filter>Source\MAMH\Private\Widget\Component\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Private\Widget\Component\Battle\LineResultBox.cpp">
+      <Filter>Source\MAMH\Private\Widget\Component\Battle</Filter>
     </ClCompile>
     <Filter Include="Source\MAMH\Public">
       <UniqueIdentifier>{8511CEEF-0EAF-3498-8D80-5EF13895F487}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MAMH\Public\ACameraOnlyPawn.h">
+    <ClCompile Include="..\..\Source\MAMH\Public\PE_UnderstandingListening.h">
       <Filter>Source\MAMH\Public</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Public\MainMenuHUD.h">
-      <Filter>Source\MAMH\Public</Filter>
+    <Filter Include="Source\MAMH\Public\Character">
+      <UniqueIdentifier>{741ED732-38AF-3D68-A46A-C029DDCC61D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Character\BattleController.h">
+      <Filter>Source\MAMH\Public\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Public\MainMenuWidget.h">
-      <Filter>Source\MAMH\Public</Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Character\BattlePawn.h">
+      <Filter>Source\MAMH\Public\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Public\MenuGameMode.h">
-      <Filter>Source\MAMH\Public</Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Character\Enemy.h">
+      <Filter>Source\MAMH\Public\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MAMH\Public\StaticCameraDirector.h">
-      <Filter>Source\MAMH\Public</Filter>
+    <Filter Include="Source\MAMH\Public\Core">
+      <UniqueIdentifier>{B7F12189-08B9-3025-9EDA-6EB07791BF9E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Core\BattleGameMode.h">
+      <Filter>Source\MAMH\Public\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Core\MenuGameMode.h">
+      <Filter>Source\MAMH\Public\Core</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public\Item">
+      <UniqueIdentifier>{720F8EB1-9E60-3ABC-85A8-1AFA3742DA55}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Item\ItemBase.h">
+      <Filter>Source\MAMH\Public\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Item\ItemDataStructure.h">
+      <Filter>Source\MAMH\Public\Item</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public\Item\ActiveEffect">
+      <UniqueIdentifier>{D9CF6EA2-DC46-348F-942D-D6C0A9C3BB5F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Item\ActiveEffect\AE_HealHP.h">
+      <Filter>Source\MAMH\Public\Item\ActiveEffect</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public\Utility">
+      <UniqueIdentifier>{15F1000C-FD2B-3057-A020-D9A453C505B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Utility\CameraOnlyPawn.h">
+      <Filter>Source\MAMH\Public\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Utility\ChatData.h">
+      <Filter>Source\MAMH\Public\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Utility\StaticCameraDirector.h">
+      <Filter>Source\MAMH\Public\Utility</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public\Widget">
+      <UniqueIdentifier>{C7C76280-A82D-36B8-9F20-AC397E8668CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\BattleHUD.h">
+      <Filter>Source\MAMH\Public\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\BattleWidget.h">
+      <Filter>Source\MAMH\Public\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\MainMenuHUD.h">
+      <Filter>Source\MAMH\Public\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\MainMenuWidget.h">
+      <Filter>Source\MAMH\Public\Widget</Filter>
+    </ClCompile>
+    <Filter Include="Source\MAMH\Public\Widget\Component">
+      <UniqueIdentifier>{82843ECD-9F4A-33DF-A943-260019FC35FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MAMH\Public\Widget\Component\Battle">
+      <UniqueIdentifier>{7356ADBA-7E3A-3D21-A8DE-311FC3DAC7AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\Component\Battle\ChatSlot.h">
+      <Filter>Source\MAMH\Public\Widget\Component\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\Component\Battle\ItemButton.h">
+      <Filter>Source\MAMH\Public\Widget\Component\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MAMH\Public\Widget\Component\Battle\LineResultBox.h">
+      <Filter>Source\MAMH\Public\Widget\Component\Battle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

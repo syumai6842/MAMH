@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MAMH/Public/StaticCameraDirector.h"
+#include "MAMH/Public/Utility/StaticCameraDirector.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStaticCameraDirector() {}
 
@@ -30,12 +30,12 @@ struct Z_Construct_UClass_AStaticCameraDirector_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-		{ "IncludePath", "StaticCameraDirector.h" },
-		{ "ModuleRelativePath", "Public/StaticCameraDirector.h" },
+		{ "IncludePath", "Utility/StaticCameraDirector.h" },
+		{ "ModuleRelativePath", "Public/Utility/StaticCameraDirector.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "Public/StaticCameraDirector.h" },
+		{ "ModuleRelativePath", "Public/Utility/StaticCameraDirector.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
@@ -88,14 +88,14 @@ AStaticCameraDirector::~AStaticCameraDirector() {}
 // End Class AStaticCameraDirector
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_StaticCameraDirector_h_Statics
+struct Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Utility_StaticCameraDirector_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AStaticCameraDirector, AStaticCameraDirector::StaticClass, TEXT("AStaticCameraDirector"), &Z_Registration_Info_UClass_AStaticCameraDirector, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStaticCameraDirector), 358047055U) },
+		{ Z_Construct_UClass_AStaticCameraDirector, AStaticCameraDirector::StaticClass, TEXT("AStaticCameraDirector"), &Z_Registration_Info_UClass_AStaticCameraDirector, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStaticCameraDirector), 1022816308U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_StaticCameraDirector_h_359515635(TEXT("/Script/MAMH"),
-	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_StaticCameraDirector_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_StaticCameraDirector_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Utility_StaticCameraDirector_h_369413831(TEXT("/Script/MAMH"),
+	Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Utility_StaticCameraDirector_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_oses_os_Unreal_Projects_MAMH_Source_MAMH_Public_Utility_StaticCameraDirector_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
